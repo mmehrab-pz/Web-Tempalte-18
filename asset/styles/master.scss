@@ -23,7 +23,7 @@
 // ---------------------------------header---------------------------------
 header {
     background-color: #03060a;
-    height: 120vh;
+    height: auto;
     background-image: url(../img/img04.png);
     background-size: cover;
     background-position: center top;
@@ -243,7 +243,7 @@ header {
                     animation: animation2 100s linear infinite alternate;
                 }
 
-                >figure{
+                >figure {
                     height: 65px;
                     width: 150px;
                     border-radius: 110px;
@@ -254,7 +254,7 @@ header {
                     background-color: rgba(255, 255, 255, 0.1);
                     display: inline-flex;
 
-                    >img{
+                    >img {
                         width: 115px;
                     }
                 }
@@ -300,5 +300,74 @@ header {
                 }
             }
         }
+    }
+}
+
+#header-content-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    >figure {
+        position: relative;
+
+        >img {
+            &:nth-of-type(2) {
+                position: absolute;
+                top: -43px;
+                left: -30px;
+            }
+        }
+    }
+
+    >span {
+        position: absolute;
+        top: -55px;
+        right: 13px;
+        cursor: pointer;
+
+        >img {
+            width: 190px;
+            animation: animation2 100s linear infinite alternate;
+        }
+
+        >div {
+            position: absolute;
+            color: aliceblue;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+
+            >span{
+                width: 50px;
+                height: 50px;
+                background-color: #03060a;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: rotate(-135deg);
+
+                >i{
+                    font-size: 45px;
+                    color: #cef12b;
+                }
+            }
+            >p{
+                color: #03060a;
+                font-size: 20px;
+                text-transform: capitalize;
+                font-family: 'SpaceGrotesk-Bold';
+                margin-top: 5px;
+            }
+        }
+
     }
 }

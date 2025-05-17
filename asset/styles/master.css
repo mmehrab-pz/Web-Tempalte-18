@@ -16,7 +16,7 @@
 }
 header {
   background-color: #03060a;
-  height: 120vh;
+  height: auto;
   background-image: url(../img/img04.png);
   background-size: cover;
   background-position: center top;
@@ -246,4 +246,63 @@ header {
 #header-content-title > div:nth-of-type(2) > figure > span > img:nth-of-type(2) {
   animation: none;
   position: absolute;
+}
+
+#header-content-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+#header-content-banner > figure {
+  position: relative;
+}
+#header-content-banner > figure > img:nth-of-type(2) {
+  position: absolute;
+  top: -43px;
+  left: -30px;
+}
+#header-content-banner > span {
+  position: absolute;
+  top: -55px;
+  right: 13px;
+  cursor: pointer;
+}
+#header-content-banner > span > img {
+  width: 190px;
+  animation: animation2 100s linear infinite alternate;
+}
+#header-content-banner > span > div {
+  position: absolute;
+  color: aliceblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+#header-content-banner > span > div > span {
+  width: 50px;
+  height: 50px;
+  background-color: #03060a;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-135deg);
+}
+#header-content-banner > span > div > span > i {
+  font-size: 45px;
+  color: #cef12b;
+}
+#header-content-banner > span > div > p {
+  color: #03060a;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: "SpaceGrotesk-Bold";
+  margin-top: 5px;
 }/*# sourceMappingURL=master.css.map */
