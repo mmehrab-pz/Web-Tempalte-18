@@ -1,1 +1,146 @@
-/*# sourceMappingURL=master.css.map */
+header {
+  background-color: #03060a;
+  height: 120vh;
+  background-image: url(../img/img04.png);
+  background-size: cover;
+  background-position: center top;
+}
+
+#headerNav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+#headerNav > nav {
+  width: 68%;
+  height: 85px;
+  background-color: rgba(255, 255, 255, 0.11);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.144);
+  display: flex;
+}
+#headerNav > nav > div {
+  height: 100%;
+}
+#headerNav > nav #nav-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+}
+#headerNav > nav #nav-logo > a > figure > img {
+  width: 120px;
+}
+#headerNav > nav #nav-menu > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#headerNav > nav #nav-menu > ul > li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+#headerNav > nav #nav-menu > ul > li > a {
+  font-family: "SpaceGrotesk-Regular";
+  text-transform: capitalize;
+  font-size: 18px;
+}
+#headerNav > nav #nav-menu > ul > li > ul {
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  background-color: #03060a;
+  border: 1px solid rgba(255, 255, 255, 0.144);
+  border-top: 3px solid #cef12b;
+  padding: 15px 15px;
+  opacity: 0;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: 0.4s ease-in-out;
+}
+#headerNav > nav #nav-menu > ul > li > ul > li {
+  padding: 10px 0;
+  color: white;
+  text-transform: capitalize;
+  font-family: "SpaceGrotesk-Bold";
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  position: relative;
+}
+#headerNav > nav #nav-menu > ul > li > ul > li::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 3px;
+  background-color: #cef12b;
+  bottom: 0;
+  transition: 0.4s ease-in-out;
+}
+#headerNav > nav #nav-menu > ul > li > ul > li:hover {
+  color: #cef12b;
+}
+#headerNav > nav #nav-menu > ul > li > ul > li:hover::before {
+  width: 70%;
+}
+#headerNav > nav #nav-menu > ul > li:hover {
+  color: #cef12b;
+}
+#headerNav > nav #nav-menu > ul > li:hover > ul {
+  opacity: 1;
+  transform: scaleY(1);
+}
+#headerNav > nav #nav-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#headerNav > nav #nav-btn > img {
+  cursor: pointer;
+}
+#headerNav > nav #nav-btn > a {
+  height: 55px;
+  width: 230px;
+  background-color: #cef12b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+#headerNav > nav #nav-btn > a > p {
+  font-size: 18px;
+  font-family: "SpaceGrotesk-Bold";
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+#headerNav > nav #nav-btn > a > span {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  transform-origin: center;
+  opacity: 0;
+  transform: scaleX(0);
+  transition: inherit;
+}
+#headerNav > nav #nav-btn > a:hover {
+  transform: translateY(-5px);
+}
+#headerNav > nav #nav-btn > a:hover > span {
+  opacity: 1;
+  transform: scaleX(1);
+}/*# sourceMappingURL=master.css.map */

@@ -1,3 +1,24 @@
+@font-face {
+    font-family: SpaceGrotesk-Light;
+    src: url(../font/SpaceGrotesk-Light.ttf);
+}
+@font-face {
+    font-family: SpaceGrotesk-Medium;
+    src: url(../font/SpaceGrotesk-Medium.ttf);
+}
+@font-face {
+    font-family: SpaceGrotesk-Regular;
+    src: url(../font/SpaceGrotesk-Regular.ttf);
+}
+@font-face {
+    font-family: SpaceGrotesk-SemiBold;
+    src: url(../font/SpaceGrotesk-SemiBold.ttf);
+}
+@font-face {
+    font-family: SpaceGrotesk-Bold;
+    src: url(../font/SpaceGrotesk-Bold.ttf);
+}
+/* ----------------------------------------- */
 *,
 ::after,
 ::before {
