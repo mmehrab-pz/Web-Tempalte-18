@@ -14,6 +14,14 @@
     transform: rotate(1000deg);
   }
 }
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 header {
   background-color: #03060a;
   height: auto;
@@ -305,4 +313,29 @@ header {
   text-transform: capitalize;
   font-family: "SpaceGrotesk-Bold";
   margin-top: 5px;
+}
+
+#header-marquee {
+  width: 100%;
+  height: 85px;
+  background-color: #cef12b;
+  margin-top: 50px;
+}
+#header-marquee > div {
+  height: 100%;
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  animation: marquee 90s linear infinite;
+}
+#header-marquee > div > p {
+  color: #03060a;
+  font-size: 28px;
+  font-family: "SpaceGrotesk-Bold";
+  text-transform: uppercase;
+}
+#header-marquee > div > img {
+  margin: 0 25px;
 }/*# sourceMappingURL=master.css.map */
