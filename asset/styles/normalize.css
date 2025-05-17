@@ -28,9 +28,9 @@
 }
 
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 100%;
     overflow-x: hidden;
+    cursor: default;
 }
 
 a {

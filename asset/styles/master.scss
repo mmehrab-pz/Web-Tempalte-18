@@ -1,3 +1,26 @@
+@keyframes animation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-1000deg);
+
+    }
+}
+
+@keyframes animation2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(1000deg);
+
+    }
+}
+
+// ---------------------------------header---------------------------------
 header {
     background-color: #03060a;
     height: 120vh;
@@ -6,6 +29,7 @@ header {
     background-position: center top;
 }
 
+//  ---------------------header navbar-------------------- 
 #headerNav {
     width: 100%;
     height: auto;
@@ -168,6 +192,110 @@ header {
                     >span {
                         opacity: 1;
                         transform: scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+//  ---------------------header content-------------------- 
+#headerContent {
+    width: 68%;
+    // border: 1px solid rgb(255, 0, 0);
+    margin: 0 auto;
+}
+
+#header-content-title {
+    width: 100%;
+    display: flex;
+    padding: 80px 0;
+
+    >div {
+        // border: 1px solid white;
+        height: 100%;
+
+        &:nth-of-type(1) {
+            padding-top: 50px;
+
+            >h1 {
+                color: white;
+                font-size: 24px;
+                font-family: 'SpaceGrotesk-Bold';
+                text-transform: uppercase;
+                display: flex;
+                align-items: center;
+
+                >img {
+                    width: 25px;
+                    margin-right: 10px;
+                }
+            }
+
+            >div {
+                color: white;
+                font-family: 'SpaceGrotesk-Bold';
+                text-transform: uppercase;
+                font-size: 80px;
+                margin-top: 20px;
+
+                >img {
+                    animation: animation2 100s linear infinite alternate;
+                }
+
+                >figure{
+                    height: 65px;
+                    width: 150px;
+                    border-radius: 110px;
+                    border: 2px solid #cef12b;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: rgba(255, 255, 255, 0.1);
+                    display: inline-flex;
+
+                    >img{
+                        width: 115px;
+                    }
+                }
+            }
+        }
+
+        &:nth-of-type(2) {
+            >figure {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                position: relative;
+
+                >img {
+                    width: 75%;
+                    animation: animation1 150s linear infinite alternate;
+                }
+
+                >span {
+                    width: 170px;
+                    height: 170px;
+                    border-radius: 50%;
+                    background: rgba(255, 255, 255, 0.1);
+                    backdrop-filter: blur(75px);
+                    position: absolute;
+                    border: 5px solid #03060a;
+                    top: -10px;
+                    right: -40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    >img {
+                        animation: animation2 150s linear infinite alternate;
+
+                        &:nth-of-type(2) {
+                            animation: none;
+                            position: absolute;
+                        }
                     }
                 }
             }
