@@ -690,7 +690,7 @@ main {
                 }
 
                 >figure {
-                    
+
                     >span {
                         opacity: 1;
                     }
@@ -707,4 +707,139 @@ main {
     background-image: url(../img/img20.png);
     background-size: cover;
     background-position: center;
+
+    #services-title {
+        padding: 100px 0 50px 0;
+        width: 68%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        >h4 {
+            color: #cef12b;
+            font-size: 20px;
+            font-family: 'SpaceGrotesk-Bold';
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+
+            >img {
+                margin-right: 5px;
+            }
+        }
+
+        >h3 {
+            font-family: 'SpaceGrotesk-Bold';
+            color: white;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 62px;
+            margin-top: 15px;
+        }
+    }
+
+    #services-content {
+        margin: 0 auto;
+        width: 68%;
+
+        >section {
+            width: 100%;
+            height: 250px;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            padding: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 50px;
+
+            >div {
+                display: inline;
+                height: max-content;
+
+                >h2 {
+                    color: white;
+                    font-size: 44px;
+                    text-transform: uppercase;
+                    font-family: 'SpaceGrotesk-Bold';
+                    margin-bottom: 10px;
+                    transition: .4s ease-in-out;
+
+                }
+
+                >ul {
+                    display: flex;
+                    margin-bottom: 10px;
+
+                    >li {
+                        height: 40px;
+                        border-radius: 6px;
+                        background: rgba(255, 255, 255, 0.06);
+                        padding: 10px 12px;
+                        color: white;
+                        text-transform: capitalize;
+                        font-family: 'SpaceGrotesk-Medium';
+                        margin-right: 10px;
+                        font-size: 18px;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+
+            >span {
+                background: rgba(255, 255, 255, 0.1);
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                transition: .4s ease-in-out;
+
+
+                >i {
+                    font-size: 50px;
+                    transform: rotate(-135deg);
+                    color: white;
+                    margin-top: 5px;
+                    transition: .4s ease-in-out;
+                }
+            }
+
+            >figure {
+                position: absolute;
+                top: 50%;
+                left: 65%;
+                transform: translate(-50%, -50%) scale(0.5);
+                opacity: 0;
+                transition: .4s ease-in-out;
+
+            }
+
+            &:hover {
+                >div {
+                    >h2 {
+                        color: #cef12b;
+                    }
+                }
+
+                >span {
+                    background-color: #cef12b;
+
+                    >i {
+                        color: #03060a;
+                    }
+                }
+
+                >figure {
+                    transform: translate(-50%, -50%) scale(1);
+                    opacity: 1;
+                }
+            }
+        }
+    }
 }
