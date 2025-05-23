@@ -737,4 +737,168 @@ main {
   text-transform: capitalize;
   font-family: "SpaceGrotesk-Bold";
   margin-top: 5px;
+}
+
+#main-showcase {
+  width: 100%;
+  height: 100vh;
+}
+#main-showcase #showcase-title {
+  width: 68%;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+#main-showcase #showcase-title > div > p {
+  color: #cef12b;
+  font-size: 20px;
+  font-family: "SpaceGrotesk-Bold";
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+#main-showcase #showcase-title > div > p > img {
+  margin-right: 5px;
+}
+#main-showcase #showcase-title > div > h2 {
+  font-family: "SpaceGrotesk-Bold";
+  color: white;
+  text-transform: uppercase;
+  font-size: 48px;
+  line-height: 62px;
+  margin-top: 15px;
+}
+#main-showcase #showcase-title #showcase-btns {
+  display: flex;
+}
+#main-showcase #showcase-title #showcase-btns > span {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #121518;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#main-showcase #showcase-title #showcase-btns > span:hover {
+  background-color: #cef12b;
+  color: #03060a;
+}
+#main-showcase #showcase {
+  width: 68%;
+  padding: 50px 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#main-showcase #showcase > div {
+  height: 510px;
+  width: 630px;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+#main-showcase #showcase > div > img {
+  width: 100%;
+  transition: 0.4s ease-in-out;
+  transform-origin: center;
+}
+#main-showcase #showcase > div > span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.2039215686);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 16px;
+  transform-origin: center;
+  transform: scale(0.5);
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+}
+#main-showcase #showcase > div > div {
+  height: 125px;
+  width: 350px;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 2;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+#main-showcase #showcase > div > div > p {
+  font-size: 16px;
+  font-family: "SpaceGrotesk-SemiBold";
+  text-transform: uppercase;
+  color: rgb(68, 62, 62);
+  margin-bottom: 10px;
+}
+#main-showcase #showcase > div > div > h5 {
+  font-size: 20px;
+  font-family: "SpaceGrotesk-Bold";
+  text-transform: uppercase;
+  color: #03060a;
+  transition: 0.2s ease-in-out;
+}
+#main-showcase #showcase > div > div > span {
+  width: 48px;
+  height: 48px;
+  background-color: #cef12b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: -10%;
+  transform: translate(-50%, -50%);
+}
+#main-showcase #showcase > div > div > span > i {
+  font-size: 35px;
+  transform: rotate(-135deg);
+}
+#main-showcase #showcase > div > div::before {
+  content: "";
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: inherit;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+#main-showcase #showcase > div > div:hover > h5 {
+  color: #cef12b;
+}
+#main-showcase #showcase > div:hover > img {
+  transform: scale(1.1) rotate(5deg);
+}
+#main-showcase #showcase > div:hover > span {
+  transform: scale(1);
+  opacity: 1;
+}
+#main-showcase #showcase > div:hover > div {
+  top: 85%;
 }/*# sourceMappingURL=master.css.map */
