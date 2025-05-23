@@ -1029,7 +1029,7 @@ main {
                     transition: .2s ease-in-out;
                 }
 
-                >span{
+                >span {
                     width: 48px;
                     height: 48px;
                     background-color: #cef12b;
@@ -1040,9 +1040,9 @@ main {
                     position: absolute;
                     left: 50%;
                     top: -10%;
-                    transform: translate(-50% , -50%);
+                    transform: translate(-50%, -50%);
 
-                    >i{
+                    >i {
                         font-size: 35px;
                         transform: rotate(-135deg);
                     }
@@ -1062,8 +1062,8 @@ main {
                     z-index: -1;
                 }
 
-                &:hover{
-                    >h5{
+                &:hover {
+                    >h5 {
                         color: #cef12b;
                     }
                 }
@@ -1079,10 +1079,62 @@ main {
                     opacity: 1;
                 }
 
-                >div{
+                >div {
                     top: 85%;
                 }
             }
         }
+    }
+}
+
+//  ---------------------main showcase-------------------- 
+#main-feedback {
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-position: center;
+
+    #feedback-title {
+        padding-top: 100px;
+        width: 68%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        >p {
+            color: #cef12b;
+            font-size: 20px;
+            font-family: 'SpaceGrotesk-Bold';
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+
+            >img {
+                margin-right: 5px;
+            }
+        }
+
+        >h2 {
+            font-family: 'SpaceGrotesk-Bold';
+            color: white;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 62px;
+            margin-top: 15px;
+        }
+
+    }
+
+    #feedback-card{
+        width: 745px;
+        height: 340px;
+        border-radius: 18px;
+        background-color: #2D3034;
+        margin: 0 auto;
+        margin-top: 70px;
+        border: 1px solid #424549;
+        border-bottom: 6px solid #424549;
     }
 }
