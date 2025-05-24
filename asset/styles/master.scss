@@ -1248,8 +1248,197 @@ main {
                     left: 120%;
                 }
 
-                &:hover{
+                &:hover {
                     border: 3px solid #cef12b;
+                }
+            }
+        }
+    }
+}
+
+//  ---------------------main team-------------------- 
+#main-team {
+    width: 100%;
+    min-height: 80vh;
+
+    #team-title {
+        width: 68%;
+        padding-top: 100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        >p {
+            color: #cef12b;
+            font-size: 20px;
+            font-family: 'SpaceGrotesk-Bold';
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+
+            >img {
+                margin-right: 5px;
+            }
+        }
+
+        >h2 {
+            font-family: 'SpaceGrotesk-Bold';
+            color: white;
+            text-transform: uppercase;
+            font-size: 48px;
+            line-height: 62px;
+            margin-top: 15px;
+        }
+    }
+
+    #team-cards {
+        width: 68%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        padding-block: 80px;
+
+        >div {
+            height: 440px;
+            width: 415px;
+            border-radius: 16px;
+            overflow: hidden;
+            position: relative;
+
+            >figure {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                >img {
+                    animation: animation2 100s linear infinite alternate;
+                }
+            }
+
+            >img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 1;
+            }
+
+            &::after {
+                content: '';
+                background: linear-gradient(180deg, rgba(206, 241, 43, 0) 42.14%, rgba(206, 241, 43, 0.9) 77.05%);
+                z-index: 2;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 100%;
+                width: 100%;
+                transform-origin: bottom;
+                transform: scaleY(0);
+                transition: .2s linear;
+
+            }
+
+            >span {
+                height: 105px;
+                width: 375px;
+                background-color: white;
+                border-radius: 8px;
+                position: absolute;
+                z-index: 3;
+                left: 50%;
+                transform: translate(-50%, -50%) scale(.5);
+                bottom: -5%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-inline: 10px;
+                transform-origin: center;
+                opacity: 0;
+                transition: .4s ease-in-out;
+
+
+                >div {
+                    >h5 {
+                        font-size: 24px;
+                        text-transform: capitalize;
+                        font-family: 'SpaceGrotesk-Bold';
+                        color: #03060a;
+                    }
+
+                    >h6 {
+                        font-size: 18px;
+                        font-family: 'SpaceGrotesk-SemiBold';
+                        color: #111111e6;
+                        text-transform: capitalize;
+                        margin-top: 10px;
+                    }
+                }
+
+                >figure {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #03060a;
+                    padding-right: 3px;
+                    transition: .2s ease-in-out;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #cef12b;
+                    }
+                }
+            }
+
+            >div {
+                position: absolute;
+                left: 110%;
+                top: 44%;
+                transform: translate(-50%, -50%);
+                z-index: 4;
+                transition: .4s ease-in-out;
+
+                >span {
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: rgb(255, 255, 255);
+                    margin-bottom: 10px;
+                    transition: .2s ease-in-out;
+                    cursor: pointer;
+
+                    >img {
+                        width: 25px;
+                    }
+
+                    &:hover {
+                        background-color: #cef12b;
+                    }
+                }
+            }
+
+            &:hover {
+
+                &::after {
+                    transform: scaleY(1);
+                }
+
+                >span {
+                    transform: translate(-50%, -50%) scale(1);
+                    opacity: 1;
+                }
+
+                >div {
+                    left: 88%;
                 }
             }
         }
