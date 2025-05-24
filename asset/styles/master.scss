@@ -1127,7 +1127,7 @@ main {
 
     }
 
-    #feedback-card{
+    #feedback-card {
         width: 745px;
         height: 340px;
         border-radius: 18px;
@@ -1136,5 +1136,122 @@ main {
         margin-top: 70px;
         border: 1px solid #424549;
         border-bottom: 6px solid #424549;
+        padding-inline: 30px;
+        position: relative;
+
+        >div {
+            width: 100%;
+        }
+
+        #feedback-header {
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            >span {
+                &:nth-of-type(1) {
+                    >img {
+                        width: 20px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        #feedback-content {
+            height: 45%;
+
+            >p {
+                font-size: 19px;
+                color: white;
+                font-family: 'SpaceGrotesk-Medium';
+            }
+        }
+
+        #feedback-footer {
+            height: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            >figure {
+                display: flex;
+                align-items: center;
+
+                >img {
+                    width: 66px;
+                }
+
+                >span {
+                    margin-left: 20px;
+
+                    >h5 {
+                        font-size: 22px;
+                        text-transform: capitalize;
+                        font-family: "SpaceGrotesk-SemiBold";
+                        color: white;
+                    }
+
+                    >h6 {
+                        margin-top: 5px;
+                        font-family: 'SpaceGrotesk-Medium';
+                        font-size: 18px;
+                        text-transform: capitalize;
+                        color: rgba(255, 255, 255, 0.863);
+                    }
+                }
+            }
+        }
+
+        #feedback-photo {
+            >figure {
+                display: inline-block;
+                width: 80px;
+                border-radius: 50%;
+                position: absolute;
+                overflow: hidden;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+
+                >img {
+                    width: 100%;
+                }
+
+                &:nth-of-type(1) {
+                    top: 15%;
+                    left: -20%;
+                }
+
+                &:nth-of-type(2) {
+                    top: 50%;
+                    left: -25%;
+                }
+
+                &:nth-of-type(3) {
+                    bottom: -10%;
+                    left: -20%;
+                }
+
+                &:nth-of-type(4) {
+                    top: 15%;
+                    left: 120%;
+                }
+
+                &:nth-of-type(5) {
+                    top: 50%;
+                    left: 125%;
+                }
+
+                &:nth-of-type(6) {
+                    bottom: -10%;
+                    left: 120%;
+                }
+
+                &:hover{
+                    border: 3px solid #cef12b;
+                }
+            }
+        }
     }
 }
