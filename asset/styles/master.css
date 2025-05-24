@@ -137,6 +137,24 @@ header {
   opacity: 1;
   transform: scaleY(1);
 }
+#headerNav > nav #menu-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+}
+#headerNav > nav #menu-mobile > span {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+#headerNav > nav #menu-mobile > span > img {
+  width: 30px;
+}
 #headerNav > nav #nav-btn {
   display: flex;
   justify-content: space-evenly;

@@ -171,6 +171,27 @@ header {
             }
         }
 
+        #menu-mobile {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding-right: 20px;
+
+            >span{
+                width: 45px;
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid white;
+                border-radius: 4px;
+                
+                >img{
+                    width: 30px;
+                }
+            }
+        }
+
         #nav-btn {
             display: flex;
             justify-content: space-evenly;
@@ -1729,7 +1750,7 @@ footer {
                 }
             }
 
-            &:nth-of-type(2){
+            &:nth-of-type(2) {
                 justify-content: center;
             }
 
