@@ -204,6 +204,7 @@ header {
 
 #headerContent {
   width: 68%;
+  height: auto;
   margin: 0 auto;
   margin-bottom: 50px;
 }
@@ -212,6 +213,7 @@ header {
   width: 100%;
   display: flex;
   padding: 80px 0;
+  height: auto;
 }
 #header-content-title > div {
   height: 100%;
@@ -276,8 +278,8 @@ header {
           backdrop-filter: blur(75px);
   position: absolute;
   border: 5px solid #03060a;
-  top: -10px;
-  right: -40px;
+  top: -5%;
+  right: -5%;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -6,6 +6,61 @@
     width: 100%;
     border-radius: 0px;
   }
+  #headerContent {
+    width: 95%;
+  }
+  #header-content-title {
+    padding: 0px 0;
+  }
+  #header-content-title > div:nth-of-type(1) {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #header-content-title > div:nth-of-type(1) > h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #header-content-title > div:nth-of-type(1) > div {
+    font-size: 40px;
+    text-align: center;
+  }
+  #header-content-title > div:nth-of-type(1) > div > img {
+    width: 50px;
+  }
+  #header-content-title > div:nth-of-type(2) {
+    padding-block: 50px;
+  }
+  #header-content-title > div:nth-of-type(2) > figure {
+    justify-content: center;
+  }
+  #header-content-title > div:nth-of-type(2) > figure > span {
+    right: 10%;
+  }
+  #header-content-banner {
+    width: 100%;
+  }
+  #header-content-banner > figure > img:nth-of-type(1) {
+    width: 100%;
+  }
+  #header-content-banner > figure > img:nth-of-type(2) {
+    top: -43px;
+    left: -30px;
+  }
+  #header-content-banner > span > img {
+    width: 120px;
+  }
+  #header-content-banner > span > div > span {
+    width: 30px;
+    height: 30px;
+  }
+  #header-content-banner > span > div > span > i {
+    font-size: 25px;
+  }
+  #header-content-banner > span > div > p {
+    font-size: 16px;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -14,6 +69,60 @@
   #headerNav > nav {
     width: 100%;
     border-radius: 0px;
+  }
+  #headerContent {
+    width: 95%;
+  }
+  #header-content-title {
+    padding: 0px 0;
+  }
+  #header-content-title > div:nth-of-type(1) {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #header-content-title > div:nth-of-type(1) > h1 {
+    font-size: 20px;
+  }
+  #header-content-title > div:nth-of-type(1) > div {
+    font-size: 40px;
+    text-align: center;
+  }
+  #header-content-title > div:nth-of-type(1) > div > img {
+    width: 50px;
+  }
+  #header-content-title > div:nth-of-type(2) {
+    padding-block: 50px;
+  }
+  #header-content-title > div:nth-of-type(2) > figure {
+    justify-content: center;
+  }
+  #header-content-title > div:nth-of-type(2) > figure > span {
+    right: 10%;
+  }
+  #header-content-banner {
+    width: 100%;
+  }
+  #header-content-banner > figure > img:nth-of-type(1) {
+    width: 100%;
+  }
+  #header-content-banner > figure > img:nth-of-type(2) {
+    top: -43px;
+    left: -30px;
+  }
+  #header-content-banner > span > img {
+    width: 120px;
+  }
+  #header-content-banner > span > div > span {
+    width: 30px;
+    height: 30px;
+  }
+  #header-content-banner > span > div > span > i {
+    font-size: 25px;
+  }
+  #header-content-banner > span > div > p {
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -24,14 +133,81 @@
     width: 90%;
     border-radius: 15px;
   }
+  #headerContent {
+    width: 90%;
+  }
+  #header-content-title {
+    padding: 20px 0;
+  }
+  #header-content-title > div:nth-of-type(1) > h1 {
+    font-size: 22px;
+  }
+  #header-content-title > div:nth-of-type(1) > div {
+    font-size: 60px;
+  }
+  #header-content-title > div:nth-of-type(1) > div > img {
+    width: 60px;
+  }
+  #header-content-title > div:nth-of-type(2) {
+    padding-block: 10px;
+  }
+  #header-content-title > div:nth-of-type(2) > figure {
+    justify-content: end;
+  }
+  #header-content-title > div:nth-of-type(2) > figure > span {
+    right: -10%;
+  }
+  #header-content-banner > span {
+    right: 313px;
+  }
 }
 @media screen and (min-width: 1400px) {
   #headerNav > nav {
     width: 80%;
   }
+  #headerContent {
+    width: 80%;
+  }
+  #header-content-title {
+    padding: 50px 0;
+  }
+  #header-content-title > div:nth-of-type(1) > h1 {
+    font-size: 24px;
+  }
+  #header-content-title > div:nth-of-type(1) > div {
+    font-size: 70px;
+  }
+  #header-content-title > div:nth-of-type(2) {
+    padding-block: 0px;
+  }
+  #header-content-banner > span {
+    right: 13px;
+  }
+  #header-content-banner > span > img {
+    width: 190px;
+  }
+  #header-content-banner > span > div > span {
+    width: 50px;
+    height: 50px;
+  }
+  #header-content-banner > span > div > span > i {
+    font-size: 45px;
+  }
+  #header-content-banner > span > div > p {
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 1600px) {
   #headerNav > nav {
     width: 68%;
+  }
+  #headerContent {
+    width: 68%;
+  }
+  #header-content-title {
+    padding: 80px 0;
+  }
+  #header-content-title > div:nth-of-type(1) > div {
+    font-size: 80px;
   }
 }/*# sourceMappingURL=local.css.map */
