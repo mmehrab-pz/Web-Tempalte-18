@@ -1356,4 +1356,162 @@ main {
 }
 #main-blog #blog-cards > div:hover > div > a > i {
   transform: rotate(-90deg);
+}
+
+footer {
+  width: 100%;
+  min-height: 80vh;
+  position: relative;
+}
+footer > img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+footer #footer-title {
+  width: 68%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+footer #footer-title > a {
+  font-size: 180px;
+  text-transform: uppercase;
+  font-family: "SpaceGrotesk-Bold";
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration-line: underline;
+  text-underline-position: from-font;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+footer #footer-title > a:hover {
+  color: #cef12b;
+}
+footer #footer-content {
+  width: 68%;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+}
+footer #footer-content > div {
+  height: 100%;
+}
+footer #footer-content > div:nth-of-type(1) > img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+footer #footer-content > div:nth-of-type(1) > p {
+  font-size: 18px;
+  font-family: "SpaceGrotesk-Medium";
+  color: #ffffff;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+footer #footer-content > div:nth-of-type(1) > div {
+  display: flex;
+}
+footer #footer-content > div:nth-of-type(1) > div > figure {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #1D1F23;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  background-color: #cef12b;
+}
+footer #footer-content > div:nth-of-type(1) > div > figure > img {
+  width: 15px;
+  color: white;
+}
+footer #footer-content > div:nth-of-type(1) > div > figure:hover {
+  transform: rotate(360deg) scale(1.1);
+}
+footer #footer-content > div:nth-of-type(2) {
+  justify-content: center;
+}
+footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+footer #footer-content > div:nth-of-type(2) > ul > li, footer #footer-content > div:nth-of-type(3) > ul > li {
+  margin-bottom: 15px;
+}
+footer #footer-content > div:nth-of-type(2) > ul > li > h5, footer #footer-content > div:nth-of-type(3) > ul > li > h5 {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: white;
+  font-family: "SpaceGrotesk-Bold";
+}
+footer #footer-content > div:nth-of-type(2) > ul > li > a, footer #footer-content > div:nth-of-type(3) > ul > li > a {
+  color: rgba(255, 255, 255, 0.664);
+  text-transform: capitalize;
+  font-family: "SpaceGrotesk-Medium";
+  transition: 0.3s ease-in-out;
+}
+footer #footer-content > div:nth-of-type(2) > ul > li > a > img, footer #footer-content > div:nth-of-type(3) > ul > li > a > img {
+  margin-right: 5px;
+}
+footer #footer-content > div:nth-of-type(2) > ul > li:hover > a, footer #footer-content > div:nth-of-type(3) > ul > li:hover > a {
+  color: #cef12b;
+}
+footer #footer-content > div:nth-of-type(4) {
+  padding-top: 1px;
+}
+footer #footer-content > div:nth-of-type(4) > h6 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-family: "SpaceGrotesk-Bold";
+  margin-bottom: 15px;
+}
+footer #footer-content > div:nth-of-type(4) > img {
+  margin-bottom: 15px;
+}
+footer #footer-content > div:nth-of-type(4) > form {
+  width: 305px;
+  height: 70px;
+  border-radius: 8px;
+  background-color: #1D1F23;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+footer #footer-content > div:nth-of-type(4) > form > input {
+  width: 50%;
+  height: 100%;
+  background-color: inherit;
+  outline: none;
+  font-size: 18px;
+  color: white;
+  font-family: "SpaceGrotesk-Medium";
+  border: none;
+}
+footer #footer-content > div:nth-of-type(4) > form > input::-moz-placeholder {
+  color: white;
+  font-family: "SpaceGrotesk-Medium";
+}
+footer #footer-content > div:nth-of-type(4) > form > input::placeholder {
+  color: white;
+  font-family: "SpaceGrotesk-Medium";
+}
+footer #footer-content > div:nth-of-type(4) > form > button {
+  height: 55px;
+  width: 135px;
+  background-color: #cef12b;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #03060a;
+  text-transform: uppercase;
+  font-family: "SpaceGrotesk-Bold";
+  border: none;
 }/*# sourceMappingURL=master.css.map */

@@ -1641,3 +1641,196 @@ main {
         }
     }
 }
+
+// ---------------------------------footer---------------------------------
+footer {
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+
+    >img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #footer-title {
+
+        width: 68%;
+        margin: 0 auto;
+        padding-top: 50px;
+
+        >a {
+            font-size: 180px;
+            text-transform: uppercase;
+            font-family: 'SpaceGrotesk-Bold';
+            display: flex;
+            justify-content: center;
+            color: white;
+            text-decoration-line: underline;
+            text-underline-position: from-font;
+            cursor: pointer;
+            transition: .2s ease-in-out;
+
+            &:hover {
+                color: #cef12b;
+            }
+        }
+    }
+
+    #footer-content {
+        width: 68%;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 50px;
+
+        >div {
+            height: 100%;
+
+            &:nth-of-type(1) {
+                >img {
+                    width: 150px;
+                    margin-bottom: 20px;
+                }
+
+                >p {
+                    font-size: 18px;
+                    font-family: 'SpaceGrotesk-Medium';
+                    color: #ffffff;
+                    line-height: 28px;
+                    margin-bottom: 30px;
+                }
+
+                >div {
+                    display: flex;
+
+                    >figure {
+                        width: 35px;
+                        height: 35px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        background-color: #1D1F23;
+                        margin-right: 10px;
+                        cursor: pointer;
+                        transition: .3s ease-in-out;
+                        background-color: #cef12b;
+
+                        >img {
+                            width: 15px;
+                            color: white;
+                        }
+
+                        &:hover {
+                            transform: rotate(360deg) scale(1.1);
+                        }
+                    }
+                }
+            }
+
+            &:nth-of-type(2){
+                justify-content: center;
+            }
+
+            &:nth-of-type(2),
+            &:nth-of-type(3) {
+                display: flex;
+                padding-top: 10px;
+                padding-left: 20px;
+
+                >ul {
+                    >li {
+                        margin-bottom: 15px;
+
+                        >h5 {
+                            font-size: 24px;
+                            text-transform: capitalize;
+                            color: white;
+                            font-family: 'SpaceGrotesk-Bold';
+                        }
+
+                        >a {
+                            color: rgba(255, 255, 255, 0.664);
+                            text-transform: capitalize;
+                            font-family: 'SpaceGrotesk-Medium';
+                            transition: .3s ease-in-out;
+
+                            >img {
+                                margin-right: 5px;
+                            }
+
+                        }
+
+                        &:hover {
+                            >a {
+                                color: #cef12b;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            &:nth-of-type(4) {
+                padding-top: 1px;
+
+                >h6 {
+                    color: white;
+                    text-transform: capitalize;
+                    font-size: 24px;
+                    font-family: 'SpaceGrotesk-Bold';
+                    margin-bottom: 15px;
+                }
+
+                >img {
+                    margin-bottom: 15px;
+                }
+
+                >form {
+                    width: 305px;
+                    height: 70px;
+                    border-radius: 8px;
+                    background-color: #1D1F23;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-inline: 10px;
+
+                    >input {
+                        width: 50%;
+                        height: 100%;
+                        background-color: inherit;
+                        outline: none;
+                        font-size: 18px;
+                        color: white;
+                        font-family: 'SpaceGrotesk-Medium';
+                        border: none;
+
+                        &::placeholder {
+                            color: white;
+                            font-family: 'SpaceGrotesk-Medium';
+                        }
+                    }
+
+                    >button {
+                        height: 55px;
+                        width: 135px;
+                        background-color: #cef12b;
+                        border-radius: 8px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 18px;
+                        color: #03060a;
+                        text-transform: uppercase;
+                        font-family: 'SpaceGrotesk-Bold';
+                        border: none;
+
+                    }
+                }
+            }
+        }
+
+    }
+}
