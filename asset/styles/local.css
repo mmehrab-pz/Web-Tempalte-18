@@ -91,6 +91,19 @@
   #creativity #creativity-content > div {
     width: 400px;
   }
+  #main-services #services-title {
+    width: 100%;
+  }
+  #main-services #services-title > h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #main-services #services-content {
+    width: 95%;
+  }
+  #main-services #services-content > section {
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -184,6 +197,19 @@
   #creativity #creativity-content > div {
     width: 465px;
   }
+  #main-services #services-title {
+    width: 100%;
+  }
+  #main-services #services-title > h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #main-services #services-content {
+    width: 95%;
+  }
+  #main-services #services-content > section {
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 768px) {
   main {
@@ -216,6 +242,18 @@
   #creativity #creativity-content > div {
     width: 565px;
   }
+  #main-services #services-title {
+    width: 100%;
+  }
+  #main-services #services-title > h3 {
+    font-size: 30px;
+  }
+  #main-services #services-content {
+    width: 95%;
+  }
+  #main-services #services-content > section {
+    padding: 20px;
+  }
 }
 @media screen and (min-width: 992px) {
   main {
@@ -244,6 +282,18 @@
   }
   #creativity #creativity-content > p {
     padding-right: 20px;
+  }
+  #main-services #services-title {
+    width: 100%;
+  }
+  #main-services #services-title > h3 {
+    font-size: 48px;
+  }
+  #main-services #services-content {
+    width: 95%;
+  }
+  #main-services #services-content > section {
+    padding: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -310,6 +360,9 @@
   #creativity #creativity-content > div {
     width: 565px;
   }
+  #main-services #services-content {
+    width: 90%;
+  }
 }
 @media screen and (min-width: 1400px) {
   #headerNav > nav {
@@ -364,6 +417,9 @@
   #creativity #creativity-content > p {
     padding-right: 0px;
   }
+  #main-services #services-content {
+    width: 80%;
+  }
 }
 @media screen and (min-width: 1600px) {
   #headerNav > nav {
@@ -386,5 +442,8 @@
   }
   #creativity #creativity-img > figure > img:nth-of-type(2) {
     width: 650px;
+  }
+  #main-services #services-content {
+    width: 68%;
   }
 }/*# sourceMappingURL=local.css.map */
