@@ -61,6 +61,36 @@
   #header-content-banner > span > div > p {
     font-size: 16px;
   }
+  main {
+    padding-top: 80px;
+  }
+  #creativity {
+    width: 100%;
+  }
+  #creativity #creativity-img > figure {
+    display: flex;
+    justify-content: center;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(1) {
+    width: 400px;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(2) {
+    width: 400px;
+    left: 25px;
+  }
+  #creativity #creativity-content {
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+  #creativity #creativity-content > h2 {
+    font-size: 35px;
+  }
+  #creativity #creativity-content > p {
+    padding-right: 20px;
+  }
+  #creativity #creativity-content > div {
+    width: 400px;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -124,6 +154,97 @@
   #header-content-banner > span > div > p {
     font-size: 16px;
   }
+  main {
+    padding-top: 80px;
+  }
+  #creativity {
+    width: 100%;
+  }
+  #creativity #creativity-img > figure {
+    display: flex;
+    justify-content: center;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(1) {
+    width: 400px;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(2) {
+    width: 400px;
+    left: 25%;
+  }
+  #creativity #creativity-content {
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+  #creativity #creativity-content > h2 {
+    font-size: 35px;
+  }
+  #creativity #creativity-content > p {
+    padding-right: 20px;
+  }
+  #creativity #creativity-content > div {
+    width: 465px;
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding-top: 80px;
+  }
+  #creativity {
+    width: 100%;
+  }
+  #creativity #creativity-img > figure {
+    display: flex;
+    justify-content: center;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(1) {
+    width: 500px;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(2) {
+    width: 500px;
+    left: 15%;
+  }
+  #creativity #creativity-content {
+    padding-left: 50px;
+    margin-top: 50px;
+  }
+  #creativity #creativity-content > h2 {
+    font-size: 35px;
+  }
+  #creativity #creativity-content > p {
+    padding-right: 20px;
+  }
+  #creativity #creativity-content > div {
+    width: 565px;
+  }
+}
+@media screen and (min-width: 992px) {
+  main {
+    padding-top: 80px;
+  }
+  #creativity {
+    width: 100%;
+  }
+  #creativity #creativity-img > figure {
+    display: flex;
+    justify-content: center;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(1) {
+    width: 650px;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(2) {
+    width: 650px;
+    left: 20%;
+  }
+  #creativity #creativity-content {
+    padding-left: 50px;
+    margin-top: 50px;
+  }
+  #creativity #creativity-content > h2 {
+    font-size: 35px;
+  }
+  #creativity #creativity-content > p {
+    padding-right: 20px;
+  }
 }
 @media screen and (min-width: 1200px) {
   #headerNav {
@@ -159,6 +280,35 @@
   }
   #header-content-banner > span {
     right: 313px;
+  }
+  main {
+    padding-top: 150px;
+  }
+  #creativity {
+    width: 90%;
+  }
+  #creativity #creativity-img > figure {
+    display: inline-block;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(1) {
+    width: 550px;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(2) {
+    width: 550px;
+    left: -25px;
+  }
+  #creativity #creativity-content {
+    padding-left: 50px;
+    margin-top: 0px;
+  }
+  #creativity #creativity-content > h2 {
+    font-size: 35px;
+  }
+  #creativity #creativity-content > p {
+    padding-right: 20px;
+  }
+  #creativity #creativity-content > div {
+    width: 565px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -196,6 +346,24 @@
   #header-content-banner > span > div > p {
     font-size: 20px;
   }
+  #creativity {
+    width: 80%;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(1) {
+    width: 600px;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(2) {
+    width: 600px;
+  }
+  #creativity #creativity-content {
+    padding-left: 80px;
+  }
+  #creativity #creativity-content > h2 {
+    font-size: 48px;
+  }
+  #creativity #creativity-content > p {
+    padding-right: 0px;
+  }
 }
 @media screen and (min-width: 1600px) {
   #headerNav > nav {
@@ -209,5 +377,14 @@
   }
   #header-content-title > div:nth-of-type(1) > div {
     font-size: 80px;
+  }
+  #creativity {
+    width: 68%;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(1) {
+    width: 650px;
+  }
+  #creativity #creativity-img > figure > img:nth-of-type(2) {
+    width: 650px;
   }
 }/*# sourceMappingURL=local.css.map */
