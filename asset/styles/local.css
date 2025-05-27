@@ -104,6 +104,30 @@
   #main-services #services-content > section {
     padding: 20px;
   }
+  #main-showcase #showcase-title {
+    width: 100%;
+  }
+  #main-showcase #showcase-title > div {
+    padding-top: 50px;
+    text-align: center;
+  }
+  #main-showcase #showcase-title > div > p {
+    justify-content: center;
+  }
+  #main-showcase #showcase-title #showcase-btns {
+    justify-content: center;
+  }
+  #main-showcase #showcase {
+    width: 90%;
+    margin-top: 0px;
+  }
+  #main-showcase #showcase > div {
+    height: 410px;
+    width: 530px;
+  }
+  #main-showcase #showcase > div:hover > div {
+    top: 80%;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -210,6 +234,31 @@
   #main-services #services-content > section {
     padding: 20px;
   }
+  #main-showcase #showcase-title {
+    width: 100%;
+  }
+  #main-showcase #showcase-title > div {
+    padding-top: 50px;
+    text-align: center;
+  }
+  #main-showcase #showcase-title > div > p {
+    justify-content: center;
+  }
+  #main-showcase #showcase-title #showcase-btns {
+    justify-content: center;
+  }
+  #main-showcase #showcase {
+    width: 90%;
+    margin-top: 0px;
+  }
+  #main-showcase #showcase > div {
+    height: 410px;
+    width: 530px;
+    margin: 0 auto;
+  }
+  #main-showcase #showcase > div:hover > div {
+    top: 80%;
+  }
 }
 @media screen and (min-width: 768px) {
   main {
@@ -295,6 +344,31 @@
   #main-services #services-content > section {
     padding: 50px;
   }
+  #main-showcase #showcase-title {
+    width: 100%;
+  }
+  #main-showcase #showcase-title > div {
+    padding-top: 50px;
+    text-align: center;
+  }
+  #main-showcase #showcase-title > div > p {
+    justify-content: center;
+  }
+  #main-showcase #showcase-title #showcase-btns {
+    justify-content: center;
+  }
+  #main-showcase #showcase {
+    width: 90%;
+    margin-top: 0px;
+  }
+  #main-showcase #showcase > div {
+    height: 510px;
+    width: 630px;
+    margin: 0 auto;
+  }
+  #main-showcase #showcase > div:hover > div {
+    top: 85%;
+  }
 }
 @media screen and (min-width: 1200px) {
   #headerNav {
@@ -363,6 +437,29 @@
   #main-services #services-content {
     width: 90%;
   }
+  #main-showcase #showcase-title {
+    width: 90%;
+  }
+  #main-showcase #showcase-title > div {
+    text-align: start;
+  }
+  #main-showcase #showcase-title > div > p {
+    justify-content: start;
+  }
+  #main-showcase #showcase-title #showcase-btns {
+    justify-content: end;
+  }
+  #main-showcase #showcase {
+    width: 90%;
+    margin-top: 50px;
+  }
+  #main-showcase #showcase > div {
+    height: 410px;
+    width: 530px;
+  }
+  #main-showcase #showcase > div:hover > div {
+    top: 80%;
+  }
 }
 @media screen and (min-width: 1400px) {
   #headerNav > nav {
@@ -420,6 +517,19 @@
   #main-services #services-content {
     width: 80%;
   }
+  #main-showcase #showcase-title {
+    width: 80%;
+  }
+  #main-showcase #showcase {
+    width: 95%;
+  }
+  #main-showcase #showcase > div {
+    height: 510px;
+    width: 630px;
+  }
+  #main-showcase #showcase > div:hover > div {
+    top: 85%;
+  }
 }
 @media screen and (min-width: 1600px) {
   #headerNav > nav {
@@ -445,5 +555,11 @@
   }
   #main-services #services-content {
     width: 68%;
+  }
+  #main-showcase #showcase-title {
+    width: 68%;
+  }
+  #main-showcase #showcase {
+    width: 75%;
   }
 }/*# sourceMappingURL=local.css.map */

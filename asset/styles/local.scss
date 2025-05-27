@@ -162,6 +162,42 @@
             }
         }
     }
+
+    //  ---------------------main showcase-------------------- 
+    #main-showcase {
+        #showcase-title {
+            width: 100%;
+
+            >div {
+                padding-top: 50px;
+                text-align: center;
+
+                >p {
+                    justify-content: center;
+                }
+            }
+
+            #showcase-btns {
+                justify-content: center;
+            }
+        }
+
+        #showcase {
+            width: 90%;
+            margin-top: 0px;
+
+            >div {
+                height: 410px;
+                width: 530px;
+
+                &:hover {
+                    >div {
+                        top: 80%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -327,6 +363,43 @@
             }
         }
     }
+
+    //  ---------------------main showcase-------------------- 
+    #main-showcase {
+        #showcase-title {
+            width: 100%;
+
+            >div {
+                padding-top: 50px;
+                text-align: center;
+
+                >p {
+                    justify-content: center;
+                }
+            }
+
+            #showcase-btns {
+                justify-content: center;
+            }
+        }
+
+        #showcase {
+            width: 90%;
+            margin-top: 0px;
+
+            >div {
+                height: 410px;
+                width: 530px;
+                margin: 0 auto;
+
+                &:hover {
+                    >div {
+                        top: 80%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -463,6 +536,43 @@
             }
         }
     }
+
+    //  ---------------------main showcase-------------------- 
+    #main-showcase {
+        #showcase-title {
+            width: 100%;
+
+            >div {
+                padding-top: 50px;
+                text-align: center;
+
+                >p {
+                    justify-content: center;
+                }
+            }
+
+            #showcase-btns {
+                justify-content: center;
+            }
+        }
+
+        #showcase {
+            width: 90%;
+            margin-top: 0px;
+
+            >div {
+                height: 510px;
+                width: 630px;
+                margin: 0 auto;
+
+                &:hover {
+                    >div {
+                        top: 85%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -576,6 +686,41 @@
 
         }
     }
+
+    //  ---------------------main showcase-------------------- 
+    #main-showcase {
+        #showcase-title {
+            width: 90%;
+
+            >div {
+                text-align: start;
+
+                >p {
+                    justify-content: start;
+                }
+            }
+
+            #showcase-btns {
+                justify-content: end;
+            }
+        }
+
+        #showcase {
+            width: 90%;
+            margin-top: 50px;
+
+            >div {
+                height: 410px;
+                width: 530px;
+
+                &:hover {
+                    >div {
+                        top: 80%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -681,6 +826,29 @@
 
         }
     }
+
+    //  ---------------------main showcase-------------------- 
+    #main-showcase {
+        #showcase-title {
+            width: 80%;
+
+        }
+
+        #showcase {
+            width: 95%;
+
+            >div {
+                height: 510px;
+                width: 630px;
+
+                &:hover {
+                    >div {
+                        top: 85%;
+                    }
+                }
+            }
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -738,6 +906,18 @@
         #services-content {
             width: 68%;
 
+        }
+    }
+
+    //  ---------------------main showcase-------------------- 
+    #main-showcase {
+        #showcase-title {
+            width: 68%;
+
+        }
+
+        #showcase {
+            width: 75%;
         }
     }
 }
