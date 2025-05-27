@@ -39,11 +39,10 @@ Check out the live version of this template:
 
 Feel free to reach out or follow me on social media:
 
-- 🌐 [My Website](https://yourwebsite.com)
-- 💼 [LinkedIn](https://linkedin.com/in/yourprofile)
-- ✈️ [Telegram](https://t.me/yourhandle)
-- 📸 [Instagram](https://instagram.com/yourhandle)
-- 🐙 [GitHub](https://github.com/your-username)
+- 🌐 [My Website](http://mehrabpourzakari.com/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/mehrab-pourzakaria-1b2492237/)
+- ✈️ [Telegram](https://t.me/mehrabPourzakaria)
+- 📸 [Instagram](https://www.instagram.com/mehrab.poorzakaria_web/)
 
 ## 🛠️ How to Use
 
