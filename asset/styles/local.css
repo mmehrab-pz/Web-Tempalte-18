@@ -154,6 +154,19 @@
   #main-team #team-cards > div {
     margin-bottom: 20px;
   }
+  #main-blog #blog-title {
+    width: 100%;
+  }
+  #main-blog #blog-title > h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #main-blog #blog-cards {
+    width: 100%;
+  }
+  #main-blog #blog-cards > div {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -311,6 +324,19 @@
   #main-team #team-cards > div {
     margin-bottom: 20px;
   }
+  #main-blog #blog-title {
+    width: 100%;
+  }
+  #main-blog #blog-title > h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #main-blog #blog-cards {
+    width: 100%;
+  }
+  #main-blog #blog-cards > div {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 768px) {
   main {
@@ -445,6 +471,15 @@
   #main-team #team-cards > div {
     margin-bottom: 20px;
   }
+  #main-blog #blog-title {
+    width: 68%;
+  }
+  #main-blog #blog-title > h2 {
+    font-size: 48px;
+  }
+  #main-blog #blog-cards {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1200px) {
   #headerNav {
@@ -540,10 +575,13 @@
     padding-top: 100px;
   }
   #main-team #team-cards {
-    width: 80%;
+    width: 100%;
   }
   #main-team #team-cards > div {
     margin-bottom: 20px;
+  }
+  #main-blog #blog-cards {
+    width: 100%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -618,6 +656,9 @@
   #main-team #team-cards {
     width: 100%;
   }
+  #main-blog #blog-cards {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1600px) {
   #headerNav > nav {
@@ -653,9 +694,15 @@
   #main-team #team-cards {
     width: 75%;
   }
+  #main-blog #blog-cards {
+    width: 75%;
+  }
 }
 @media screen and (min-width: 1800px) {
   #main-team #team-cards {
+    width: 68%;
+  }
+  #main-blog #blog-cards {
     width: 68%;
   }
 }/*# sourceMappingURL=local.css.map */
