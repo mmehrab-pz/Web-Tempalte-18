@@ -21,6 +21,13 @@ A modern and responsive website template built using **HTML**, **CSS**, **SASS**
 
 **Web-Template-18** is a responsive and clean website template designed for general use, including landing pages, corporate websites, portfolios, or personal projects. It has been developed entirely from scratch based on an existing design from a reference website.
 
+## 📸 Preview
+
+![Image](https://github.com/user-attachments/assets/4bd25783-3e3a-48be-a423-2853e8c5ef70)
+![Image](https://github.com/user-attachments/assets/40e8ebba-c4b7-495c-bc4d-6a70409e7220)
+![Image](https://github.com/user-attachments/assets/d1e31710-b43a-46ce-9b71-e891de6298f1)
+![Image](https://github.com/user-attachments/assets/0b75eb5b-3b3f-4b3f-a4d0-7faaddb88e46)
+
 > 💡 Template inspired by: (https://unifato.com/renev/)
 
 ## 🌐 Live Demo
@@ -37,10 +44,6 @@ Feel free to reach out or follow me on social media:
 - ✈️ [Telegram](https://t.me/yourhandle)
 - 📸 [Instagram](https://instagram.com/yourhandle)
 - 🐙 [GitHub](https://github.com/your-username)
-
-## 📸 Preview
-
-_You can add screenshots or a preview image of your project here._
 
 ## 🛠️ How to Use
 
