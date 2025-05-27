@@ -167,6 +167,18 @@
   #main-blog #blog-cards > div {
     margin-bottom: 20px;
   }
+  footer #footer-title > a {
+    font-size: 50px;
+  }
+  footer #footer-content > div {
+    margin-bottom: 20px;
+  }
+  footer #footer-content > div:nth-of-type(2) {
+    justify-content: start;
+  }
+  footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
+    padding-left: 0px;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -337,6 +349,18 @@
   #main-blog #blog-cards > div {
     margin-bottom: 20px;
   }
+  footer #footer-title > a {
+    font-size: 50px;
+  }
+  footer #footer-content > div {
+    margin-bottom: 20px;
+  }
+  footer #footer-content > div:nth-of-type(2) {
+    justify-content: start;
+  }
+  footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
+    padding-left: 0px;
+  }
 }
 @media screen and (min-width: 768px) {
   main {
@@ -479,6 +503,18 @@
   }
   #main-blog #blog-cards {
     width: 100%;
+  }
+  footer #footer-title > a {
+    font-size: 70px;
+  }
+  footer #footer-content > div {
+    margin-bottom: 20px;
+  }
+  footer #footer-content > div:nth-of-type(2) {
+    justify-content: center;
+  }
+  footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
+    padding-left: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -659,6 +695,15 @@
   #main-blog #blog-cards {
     width: 100%;
   }
+  footer #footer-title > a {
+    font-size: 120px;
+  }
+  footer #footer-content {
+    width: 90%;
+  }
+  footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
+    padding-left: 20px;
+  }
 }
 @media screen and (min-width: 1600px) {
   #headerNav > nav {
@@ -696,6 +741,15 @@
   }
   #main-blog #blog-cards {
     width: 75%;
+  }
+  footer #footer-title {
+    width: 75%;
+  }
+  footer #footer-title > a {
+    font-size: 180px;
+  }
+  footer #footer-content {
+    width: 68%;
   }
 }
 @media screen and (min-width: 1800px) {

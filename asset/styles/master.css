@@ -1420,6 +1420,7 @@ footer {
   width: 100%;
   min-height: 80vh;
   position: relative;
+  padding-bottom: 50px;
 }
 footer > img {
   position: absolute;
