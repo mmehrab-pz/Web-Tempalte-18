@@ -141,6 +141,19 @@
     margin: 0 auto;
     margin-top: 70px;
   }
+  #main-team #team-title {
+    width: 100%;
+  }
+  #main-team #team-title > h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #main-team #team-cards {
+    width: 100%;
+  }
+  #main-team #team-cards > div {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -285,6 +298,19 @@
     margin: 0 auto;
     margin-top: 70px;
   }
+  #main-team #team-title {
+    width: 100%;
+  }
+  #main-team #team-title > h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #main-team #team-cards {
+    width: 100%;
+  }
+  #main-team #team-cards > div {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 768px) {
   main {
@@ -406,6 +432,19 @@
   #main-showcase #showcase > div:hover > div {
     top: 85%;
   }
+  #main-team #team-title {
+    width: 68%;
+  }
+  #main-team #team-title > h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+  #main-team #team-cards {
+    width: 100%;
+  }
+  #main-team #team-cards > div {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 1200px) {
   #headerNav {
@@ -500,6 +539,12 @@
   #main-feedback #feedback-title {
     padding-top: 100px;
   }
+  #main-team #team-cards {
+    width: 80%;
+  }
+  #main-team #team-cards > div {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (min-width: 1400px) {
   #headerNav > nav {
@@ -570,6 +615,9 @@
   #main-showcase #showcase > div:hover > div {
     top: 85%;
   }
+  #main-team #team-cards {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1600px) {
   #headerNav > nav {
@@ -600,6 +648,9 @@
     width: 68%;
   }
   #main-showcase #showcase {
+    width: 75%;
+  }
+  #main-team #team-cards {
     width: 75%;
   }
 }/*# sourceMappingURL=local.css.map */
