@@ -198,6 +198,26 @@
             }
         }
     }
+
+    //  ---------------------main feedback-------------------- 
+    #main-feedback {
+        #feedback-title {
+            padding-top: 50px;
+
+            >h2 {
+                font-size: 40px;
+                text-align: center;
+            }
+        }
+
+        #feedback-card {
+            width: 445px;
+            height: 540px;
+            margin: 0 auto;
+            margin-top: 70px;
+
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -400,6 +420,25 @@
             }
         }
     }
+
+    //  ---------------------main feedback-------------------- 
+    #main-feedback {
+        #feedback-title {
+            padding-top: 50px;
+
+            >h2 {
+                font-size: 40px;
+                text-align: center;
+            }
+        }
+
+        #feedback-card {
+            width: 445px;
+            height: 540px;
+            margin: 0 auto;
+            margin-top: 70px;
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
@@ -468,6 +507,23 @@
             >section {
                 padding: 20px;
             }
+        }
+    }
+
+    //  ---------------------main feedback-------------------- 
+    #main-feedback {
+        #feedback-title {
+            padding-top: 50px;
+
+            >h2 {
+                font-size: 48px;
+                text-align: center;
+            }
+        }
+
+        #feedback-card {
+            width: 745px;
+            height: 340px;
         }
     }
 }
@@ -719,6 +775,14 @@
                     }
                 }
             }
+        }
+    }
+
+    //  ---------------------main feedback-------------------- 
+    #main-feedback {
+        #feedback-title {
+            padding-top: 100px;
+
         }
     }
 }

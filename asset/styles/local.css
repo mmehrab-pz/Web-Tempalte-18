@@ -128,6 +128,19 @@
   #main-showcase #showcase > div:hover > div {
     top: 80%;
   }
+  #main-feedback #feedback-title {
+    padding-top: 50px;
+  }
+  #main-feedback #feedback-title > h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #main-feedback #feedback-card {
+    width: 445px;
+    height: 540px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -259,6 +272,19 @@
   #main-showcase #showcase > div:hover > div {
     top: 80%;
   }
+  #main-feedback #feedback-title {
+    padding-top: 50px;
+  }
+  #main-feedback #feedback-title > h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #main-feedback #feedback-card {
+    width: 445px;
+    height: 540px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
 }
 @media screen and (min-width: 768px) {
   main {
@@ -302,6 +328,17 @@
   }
   #main-services #services-content > section {
     padding: 20px;
+  }
+  #main-feedback #feedback-title {
+    padding-top: 50px;
+  }
+  #main-feedback #feedback-title > h2 {
+    font-size: 48px;
+    text-align: center;
+  }
+  #main-feedback #feedback-card {
+    width: 745px;
+    height: 340px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -459,6 +496,9 @@
   }
   #main-showcase #showcase > div:hover > div {
     top: 80%;
+  }
+  #main-feedback #feedback-title {
+    padding-top: 100px;
   }
 }
 @media screen and (min-width: 1400px) {
