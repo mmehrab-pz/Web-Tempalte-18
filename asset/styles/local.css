@@ -653,4 +653,9 @@
   #main-team #team-cards {
     width: 75%;
   }
+}
+@media screen and (min-width: 1800px) {
+  #main-team #team-cards {
+    width: 68%;
+  }
 }/*# sourceMappingURL=local.css.map */
