@@ -952,6 +952,7 @@ main {
   background-image: url(../img/bg2.png);
   background-size: cover;
   background-position: center;
+  padding-bottom: 50px;
 }
 #main-feedback #feedback-title {
   padding-top: 100px;
@@ -1080,6 +1081,34 @@ main {
 }
 #main-feedback #feedback-card #feedback-photo > figure:hover {
   border: 3px solid #cef12b;
+}
+#main-feedback #feedback-btns {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+#main-feedback #feedback-btns > span {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #121518;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 50%;
+}
+#main-feedback #feedback-btns > span:nth-of-type(1) {
+  margin-right: 5px;
+}
+#main-feedback #feedback-btns > span:nth-of-type(2) {
+  margin-left: 5px;
+}
+#main-feedback #feedback-btns > span:hover {
+  background-color: #cef12b;
+  color: #03060a;
 }
 
 #main-team {

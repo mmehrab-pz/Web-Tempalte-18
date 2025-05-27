@@ -990,10 +990,11 @@ main {
                 font-size: 25px;
                 border-radius: 50%;
 
-                &:nth-of-type(1){
+                &:nth-of-type(1) {
                     margin-right: 5px;
                 }
-                &:nth-of-type(2){
+
+                &:nth-of-type(2) {
                     margin-left: 5px;
                 }
 
@@ -1143,6 +1144,7 @@ main {
     background-image: url(../img/bg2.png);
     background-size: cover;
     background-position: center;
+    padding-bottom: 50px;
 
     #feedback-title {
         padding-top: 100px;
@@ -1300,6 +1302,39 @@ main {
                 &:hover {
                     border: 3px solid #cef12b;
                 }
+            }
+        }
+    }
+
+    #feedback-btns {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+
+        >span {
+            width: 55px;
+            height: 55px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: #121518;
+            transition: .4s ease-in-out;
+            cursor: pointer;
+            font-size: 25px;
+            border-radius: 50%;
+
+            &:nth-of-type(1) {
+                margin-right: 5px;
+            }
+
+            &:nth-of-type(2) {
+                margin-left: 5px;
+            }
+
+            &:hover {
+                background-color: #cef12b;
+                color: #03060a;
             }
         }
     }
