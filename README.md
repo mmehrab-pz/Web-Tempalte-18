@@ -28,12 +28,10 @@ A modern and responsive website template built using **HTML**, **CSS**, **SASS**
 ![Image](https://github.com/user-attachments/assets/d1e31710-b43a-46ce-9b71-e891de6298f1)
 ![Image](https://github.com/user-attachments/assets/0b75eb5b-3b3f-4b3f-a4d0-7faaddb88e46)
 
-> 💡 Template inspired by: (https://unifato.com/renev/)
-
 ## 🌐 Live Demo
 
 Check out the live version of this template:  
-👉 [View Demo](https://your-demo-link.com)
+👉 [View Demo](https://mmehrab-pz.github.io/Web-Tempalte-18/)
 
 ## 🔗 Connect with Me
 
@@ -44,9 +42,12 @@ Feel free to reach out or follow me on social media:
 - ✈️ [Telegram](https://t.me/mehrabPourzakaria)
 - 📸 [Instagram](https://www.instagram.com/mehrab.poorzakaria_web/)
 
+> 💡 Template inspired by: (https://unifato.com/renev/)
+
 ## 🛠️ How to Use
 
 1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/Web-Template-18.git
+
