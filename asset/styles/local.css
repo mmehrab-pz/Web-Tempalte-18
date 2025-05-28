@@ -179,6 +179,9 @@
   footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
     padding-left: 0px;
   }
+  #burger-menu {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 576px) {
   #headerNav {
@@ -361,6 +364,9 @@
   footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
     padding-left: 0px;
   }
+  #burger-menu {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 768px) {
   main {
@@ -516,6 +522,9 @@
   footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
     padding-left: 0px;
   }
+  #burger-menu {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 1200px) {
   #headerNav {
@@ -623,6 +632,9 @@
   #main-blog #blog-cards {
     width: 100%;
   }
+  #burger-menu {
+    width: 40%;
+  }
 }
 @media screen and (min-width: 1400px) {
   #headerNav > nav {
@@ -708,6 +720,9 @@
   footer #footer-content > div:nth-of-type(2), footer #footer-content > div:nth-of-type(3) {
     padding-left: 20px;
   }
+  #burger-menu {
+    width: 30%;
+  }
 }
 @media screen and (min-width: 1600px) {
   #headerNav > nav {
@@ -754,6 +769,9 @@
   }
   footer #footer-content {
     width: 68%;
+  }
+  #burger-menu {
+    width: 25%;
   }
 }
 @media screen and (min-width: 1800px) {
