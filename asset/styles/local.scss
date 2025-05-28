@@ -842,8 +842,10 @@
 
         >div {
             &:nth-of-type(1) {
+                align-items: start;
                 >h1 {
                     font-size: 22px;
+                    text-align: start;
                 }
 
                 >div {

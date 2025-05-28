@@ -531,8 +531,12 @@
   #header-content-title {
     padding: 20px 0;
   }
+  #header-content-title > div:nth-of-type(1) {
+    align-items: start;
+  }
   #header-content-title > div:nth-of-type(1) > h1 {
     font-size: 22px;
+    text-align: start;
   }
   #header-content-title > div:nth-of-type(1) > div {
     font-size: 60px;
