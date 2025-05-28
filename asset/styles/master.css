@@ -1585,7 +1585,7 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   z-index: 100;
   border: 1px solid rgba(255, 255, 255, 0.315);
   padding: 60px 50px;
-  transition: 0.4s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 #burger-menu > span {
   width: 60px;
@@ -1821,5 +1821,5 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   position: fixed;
   z-index: 99;
   background-color: rgba(3, 6, 10, 0.6862745098);
-  display: flex;
+  display: none;
 }/*# sourceMappingURL=master.css.map */

@@ -1915,7 +1915,7 @@ footer {
     z-index: 100;
     border: 1px solid rgba(255, 255, 255, 0.315);
     padding: 60px 50px;
-    transition: .4s ease-in-out;
+    transition: .2s ease-in-out;
 
     >span {
         width: 60px;
@@ -2188,5 +2188,5 @@ footer {
     position: fixed;
     z-index: 99;
     background-color: #03060aaf;
-    display: flex;
+    display: none;
 }
