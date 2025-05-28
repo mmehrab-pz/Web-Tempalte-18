@@ -247,6 +247,200 @@ header {
         }
     }
 }
+//  ---------------------header navbar2-------------------- 
+#headerNav2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: -85px;
+    left: 0;
+    z-index: 50;
+    transition: .2s ease-in-out;
+
+    >nav {
+        width: 100%;
+        height: 85px;
+        background-color: #03060a;
+        border: 1px solid rgba(255, 255, 255, 0.144);
+        display: flex;
+
+        >div {
+            height: 100%;
+
+        }
+
+        #nav2-logo {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding-left: 20px;
+
+            >a {
+                >figure {
+                    >img {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+
+        #nav2-menu {
+            >ul {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                >li {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    transition: .3s ease-in-out;
+                    color: white;
+                    position: relative;
+                    cursor: pointer;
+
+                    >a {
+                        font-family: 'SpaceGrotesk-Regular';
+                        text-transform: capitalize;
+                        font-size: 18px;
+                    }
+
+                    >ul {
+                        position: absolute;
+                        width: 200px;
+                        top: 100%;
+                        background-color: #03060a;
+                        border: 1px solid rgba(255, 255, 255, 0.144);
+                        border-top: 3px solid #cef12b;
+                        padding: 15px 15px;
+                        opacity: 0;
+                        transform-origin: top;
+                        transform: scaleY(0);
+                        transition: .4s ease-in-out;
+
+                        >li {
+                            padding: 10px 0;
+                            color: white;
+                            text-transform: capitalize;
+                            font-family: 'SpaceGrotesk-Bold';
+                            font-size: 18px;
+                            cursor: pointer;
+                            transition: .4s ease-in-out;
+                            position: relative;
+
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                width: 0%;
+                                height: 3px;
+                                background-color: #cef12b;
+                                bottom: 0;
+                                transition: .4s ease-in-out;
+
+                            }
+
+                            &:hover {
+                                color: #cef12b;
+
+                                &::before {
+                                    width: 70%;
+                                }
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        color: #cef12b;
+
+                        >ul {
+                            opacity: 1;
+                            transform: scaleY(1);
+                        }
+                    }
+                }
+            }
+        }
+
+        #menu2-mobile {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding-right: 20px;
+
+            >span {
+                width: 45px;
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid white;
+                border-radius: 4px;
+                cursor: pointer;
+
+                >img {
+                    width: 30px;
+                }
+            }
+        }
+
+        #nav2-btn {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            >img {
+                cursor: pointer;
+            }
+
+            >a {
+                height: 55px;
+                width: 230px;
+                background-color: #cef12b;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                overflow: hidden;
+                position: relative;
+                transition: .4s ease-in-out;
+
+
+                >p {
+                    font-size: 18px;
+                    font-family: 'SpaceGrotesk-Bold';
+                    font-weight: 700 !important;
+                    text-transform: uppercase;
+                    position: relative;
+                    z-index: 2;
+                }
+
+                >span {
+                    width: 100%;
+                    height: 100%;
+                    background-color: white;
+                    position: absolute;
+                    transform-origin: center;
+                    opacity: 0;
+                    transform: scaleX(0);
+                    transition: inherit;
+                }
+
+                &:hover {
+                    transform: translateY(-5px);
+
+                    >span {
+                        opacity: 1;
+                        transform: scaleX(1);
+                    }
+                }
+            }
+        }
+    }
+}
 
 //  ---------------------header content-------------------- 
 #headerContent {
