@@ -1753,11 +1753,73 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   border: none;
 }
 
+#search-box {
+  width: 100%;
+  height: 50vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+#search-box #close-search {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #F1F1F1;
+  cursor: pointer;
+}
+#search-box #close-search > img {
+  width: 20px;
+  transition: 0.3s ease-in-out;
+}
+#search-box #close-search:hover > img {
+  transform: rotate(180deg);
+}
+#search-box > form {
+  width: 60%;
+}
+#search-box > form > input {
+  width: 100%;
+  height: 55px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #EDECEC;
+  font-family: "SpaceGrotesk-Medium";
+  font-size: 28px;
+}
+#search-box > form > input::-moz-placeholder {
+  font-size: 28px;
+  color: #cecece;
+  font-family: "SpaceGrotesk-Medium";
+  text-transform: capitalize;
+}
+#search-box > form > input::placeholder {
+  font-size: 28px;
+  color: #cecece;
+  font-family: "SpaceGrotesk-Medium";
+  text-transform: capitalize;
+}
+#search-box > form > input:focus {
+  border-bottom: 2px solid #cacaca;
+}
+
 #bodyOff {
   width: 100%;
   height: 100vh;
   position: fixed;
   z-index: 99;
-  background-color: rgba(3, 6, 10, 0.3411764706);
-  display: none;
+  background-color: rgba(3, 6, 10, 0.6862745098);
+  display: flex;
 }/*# sourceMappingURL=master.css.map */

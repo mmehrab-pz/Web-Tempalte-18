@@ -2111,12 +2111,82 @@ footer {
     }
 }
 
+// ---------------------------------search box---------------------------------
+
+#search-box {
+    width: 100%;
+    height: 50vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease-in-out;
+    transform: scaleY(0);
+    transform-origin: top;
+
+    #close-search {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #F1F1F1;
+        cursor: pointer;
+
+        >img {
+            width: 20px;
+            transition: .3s ease-in-out;
+        }
+
+        &:hover {
+            >img {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    >form {
+        width: 60%;
+
+        >input {
+            width: 100%;
+            height: 55px;
+            outline: none;
+            border: none;
+            border-bottom: 2px solid #EDECEC;
+            font-family: 'SpaceGrotesk-Medium';
+            font-size: 28px;
+
+
+
+            &::placeholder {
+                font-size: 28px;
+                color: #cecece;
+                font-family: 'SpaceGrotesk-Medium';
+                text-transform: capitalize;
+            }
+
+            &:focus {
+                border-bottom: 2px solid #cacaca;
+
+            }
+        }
+    }
+}
+
 // ---------------------------------classes---------------------------------
 #bodyOff {
     width: 100%;
     height: 100vh;
     position: fixed;
     z-index: 99;
-    background-color: #03060a57;
-    display: none;
+    background-color: #03060aaf;
+    display: flex;
 }
