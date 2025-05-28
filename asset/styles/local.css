@@ -181,6 +181,7 @@
   }
   #burger-menu {
     width: 100%;
+    right: -100%;
   }
 }
 @media screen and (min-width: 576px) {
@@ -366,6 +367,7 @@
   }
   #burger-menu {
     width: 100%;
+    right: -100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -524,6 +526,7 @@
   }
   #burger-menu {
     width: 50%;
+    right: -50%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -634,6 +637,7 @@
   }
   #burger-menu {
     width: 40%;
+    right: -40%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -722,6 +726,7 @@
   }
   #burger-menu {
     width: 30%;
+    right: -30%;
   }
 }
 @media screen and (min-width: 1600px) {
@@ -772,6 +777,7 @@
   }
   #burger-menu {
     width: 25%;
+    right: -25%;
   }
 }
 @media screen and (min-width: 1800px) {

@@ -1580,7 +1580,7 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   height: 100vh;
   position: fixed;
   top: 0;
-  right: 0;
+  right: 25%;
   background-color: #03060a;
   z-index: 100;
   border: 1px solid rgba(255, 255, 255, 0.315);
@@ -1759,4 +1759,5 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   position: fixed;
   z-index: 99;
   background-color: rgba(3, 6, 10, 0.3411764706);
+  display: none;
 }/*# sourceMappingURL=master.css.map */
