@@ -2386,7 +2386,7 @@ footer {
     }
 }
 
-// ---------------------------------classes---------------------------------
+// ---------------------------------Additions---------------------------------
 #bodyOff {
     width: 100%;
     height: 100vh;
@@ -2414,6 +2414,19 @@ footer {
         width: 30px;
     }
 }
+
+#progress{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: #cef12b;
+    display: flex;
+    z-index: 98;
+}
+
+// ---------------------------------classes---------------------------------
 
 .box {
     opacity: 0;

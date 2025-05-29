@@ -2004,6 +2004,17 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   width: 30px;
 }
 
+#progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 0;
+  background-color: #cef12b;
+  display: flex;
+  z-index: 98;
+}
+
 .box {
   opacity: 0;
 }

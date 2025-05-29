@@ -52,22 +52,32 @@ window.addEventListener('scroll', () => {
 
 const boxes = document.querySelectorAll('.box')
 
-const observer = new IntersectionObserver((intries)=>{
-    intries.forEach(entry =>{
-        if(entry.isIntersecting){
+const observer = new IntersectionObserver((intries) => {
+    intries.forEach(entry => {
+        if (entry.isIntersecting) {
             entry.target.classList.add('show')
             observer.unobserve(entry.target)
-            
-            
+
+
         }
     })
-} , {
+}, {
     threshold: 0.4
 })
 
-boxes.forEach(box =>{
+boxes.forEach(box => {
     observer.observe(box)
 })
 
+// ----------------------------progress bar----------------------------------
+let progress = document.getElementById('progress')
 
+window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY; // مقدار اسکرول فعلی
+    const docHeight = document.documentElement.scrollHeight; // ارتفاع کل صفحه
+    const windowHeight = window.innerHeight; // ارتفاع پنجره مرورگر
 
+    const scrollPercent = (scrollTop / (docHeight - windowHeight)) * 100;
+
+    progress.style.width = `${scrollPercent}%`;
+})
