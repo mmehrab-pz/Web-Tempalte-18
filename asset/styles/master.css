@@ -1986,6 +1986,24 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   display: none;
 }
 
+#goTop {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #cef12b;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#goTop > img {
+  width: 30px;
+}
+
 .box {
   opacity: 0;
 }
