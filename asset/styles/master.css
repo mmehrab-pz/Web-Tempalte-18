@@ -143,7 +143,7 @@ header {
   justify-content: end;
   padding-right: 20px;
 }
-#headerNav > nav #menu-mobile > span {
+#headerNav > nav #menu-mobile > button {
   width: 45px;
   height: 45px;
   display: flex;
@@ -153,7 +153,7 @@ header {
   border-radius: 4px;
   cursor: pointer;
 }
-#headerNav > nav #menu-mobile > span > img {
+#headerNav > nav #menu-mobile > button > img {
   width: 30px;
 }
 #headerNav > nav #nav-btn {
@@ -161,7 +161,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-#headerNav > nav #nav-btn > img {
+#headerNav > nav #nav-btn > button > img {
   cursor: pointer;
 }
 #headerNav > nav #nav-btn > a {
@@ -304,7 +304,7 @@ header {
   justify-content: end;
   padding-right: 20px;
 }
-#headerNav2 > nav #menu2-mobile > span {
+#headerNav2 > nav #menu2-mobile > button {
   width: 45px;
   height: 45px;
   display: flex;
@@ -314,7 +314,7 @@ header {
   border-radius: 4px;
   cursor: pointer;
 }
-#headerNav2 > nav #menu2-mobile > span > img {
+#headerNav2 > nav #menu2-mobile > button > img {
   width: 30px;
 }
 #headerNav2 > nav #nav2-btn {
@@ -322,7 +322,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-#headerNav2 > nav #nav2-btn > img {
+#headerNav2 > nav #nav2-btn > button > img {
   cursor: pointer;
 }
 #headerNav2 > nav #nav2-btn > a {

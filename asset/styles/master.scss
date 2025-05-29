@@ -177,7 +177,7 @@ header {
             justify-content: end;
             padding-right: 20px;
 
-            >span {
+            >button {
                 width: 45px;
                 height: 45px;
                 display: flex;
@@ -198,8 +198,10 @@ header {
             justify-content: space-evenly;
             align-items: center;
 
-            >img {
-                cursor: pointer;
+            >button {
+                >img {
+                    cursor: pointer;
+                }
             }
 
             >a {
@@ -247,6 +249,7 @@ header {
         }
     }
 }
+
 //  ---------------------header navbar2-------------------- 
 #headerNav2 {
     width: 100%;
@@ -371,7 +374,7 @@ header {
             justify-content: end;
             padding-right: 20px;
 
-            >span {
+            >button {
                 width: 45px;
                 height: 45px;
                 display: flex;
@@ -392,8 +395,10 @@ header {
             justify-content: space-evenly;
             align-items: center;
 
-            >img {
-                cursor: pointer;
+            >button {
+                >img {
+                    cursor: pointer;
+                }
             }
 
             >a {

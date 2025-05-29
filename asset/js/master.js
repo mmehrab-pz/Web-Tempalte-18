@@ -4,36 +4,35 @@ let burger = document.getElementById('burger-menu')
 let closeBurger = document.getElementById('close-burger')
 let mobileBurger = document.getElementById('open-burger-mobile')
 let bodyOff = document.getElementById('bodyOff')
-// --------open---------
-openBurger.addEventListener('click', () => {
-    burger.style.right = '0%'
-    bodyOff.style.display = 'flex'
+let openSearch = document.getElementById('open-search')
+let closeSearch = document.getElementById('close-search')
+let searchBox = document.getElementById('search-box')
+// ------------------all nav bar btns (open)----------------------
+const buttons = document.querySelectorAll('button')
+buttons.forEach((item) => {
+    item.addEventListener('click', () => {
+        let btnName = item.getAttribute('data-btn')
+        if (btnName === 'search') {
+            searchBox.style.transform = 'scaleY(1)'
+            bodyOff.style.display = 'flex'
+        } else if (btnName === 'burger') {
+            burger.style.right = '0%'
+            bodyOff.style.display = 'flex'
+        }
+    })
 })
-// --------open mobile---------
-mobileBurger.addEventListener('click', () => {
-    burger.style.right = '0%'
-    bodyOff.style.display = 'flex'
-})
-// --------close---------
+// -----------------all nav bar btns (close)---------------------
 closeBurger.addEventListener('click', () => {
     burger.style.right = '-100%'
     bodyOff.style.display = 'none'
 })
-// ----------------------------search box----------------------------------
-let openSearch = document.getElementById('open-search')
-let closeSearch = document.getElementById('close-search')
-let searchBox = document.getElementById('search-box')
-// --------open---------
-openSearch.addEventListener('click', () => {
-    searchBox.style.transform = 'scaleY(1)'
-    bodyOff.style.display = 'flex'
-})
-// --------close---------
+
 closeSearch.addEventListener('click', () => {
     searchBox.style.transform = 'scaleY(0)'
     bodyOff.style.display = 'none'
 })
-// ----------------------------nav bar 2----------------------------------
+
+// ----------------------------nav bar 2 movement----------------------------------
 let navBar = document.getElementById('headerNav')
 let navBar2 = document.getElementById('headerNav2')
 

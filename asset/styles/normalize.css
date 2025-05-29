@@ -49,6 +49,12 @@ ul {
     margin-bottom: 0;
 }
 
+button{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    outline: none;
+}
+
 .row>* {
     padding-left: 0;
     padding-right: 0;
