@@ -36,6 +36,7 @@
     opacity: 0;
   }
 }
+@keyframes typing {}
 header {
   background-color: #03060a;
   height: auto;
@@ -1983,4 +1984,41 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   z-index: 99;
   background-color: rgba(3, 6, 10, 0.6862745098);
   display: none;
+}
+
+.box {
+  opacity: 0;
+}
+
+.box[data-effect=fade-up] {
+  transform: translateY(200px);
+}
+
+.box[data-effect=fade-down] {
+  transform: translateY(-200px);
+}
+
+.box[data-effect=fade-right] {
+  transform: translateX(200px);
+}
+
+.box[data-effect=fade-left] {
+  transform: translateX(-200px);
+}
+
+.box[data-delay=".4s"] {
+  transition: 0.4s ease-in-out;
+}
+
+.box[data-delay=".6s"] {
+  transition: 0.6s ease-in-out;
+}
+
+.box[data-delay=".8s"] {
+  transition: 0.8s ease-in-out;
+}
+
+.box.show {
+  opacity: 1;
+  transform: translate(0px, 0px);
 }/*# sourceMappingURL=master.css.map */

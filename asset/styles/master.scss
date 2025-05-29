@@ -47,6 +47,10 @@
     }
 }
 
+@keyframes typing {
+
+}
+
 // ---------------------------------header---------------------------------
 header {
     background-color: #03060a;
@@ -1171,7 +1175,9 @@ main {
                 font-size: 48px;
                 line-height: 62px;
                 margin-top: 15px;
+                
             }
+
         }
 
         #showcase-btns {
@@ -2388,4 +2394,43 @@ footer {
     z-index: 99;
     background-color: #03060aaf;
     display: none;
+}
+
+.box {
+    opacity: 0;
+}
+
+.box[data-effect="fade-up"] {
+    transform: translateY(200px);
+}
+
+.box[data-effect="fade-down"] {
+    transform: translateY(-200px);
+}
+
+.box[data-effect="fade-right"] {
+    transform: translateX(200px);
+}
+
+.box[data-effect="fade-left"] {
+    transform: translateX(-200px);
+}
+
+
+.box[data-delay=".4s"] {
+    transition: .4s ease-in-out;
+}
+
+.box[data-delay=".6s"] {
+    transition: .6s ease-in-out;
+}
+
+.box[data-delay=".8s"] {
+    transition: .8s ease-in-out;
+}
+
+.box.show {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    // animation: typing 2s steps(20) alternate;
 }

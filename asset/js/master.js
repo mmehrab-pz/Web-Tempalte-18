@@ -38,7 +38,6 @@ let navBar2 = document.getElementById('headerNav2')
 
 window.addEventListener('scroll', () => {
     const scrollTop = window.scrollY
-    console.log(scrollTop);
 
     if (scrollTop == 0) {
         navBar.style.opacity = '1';
@@ -48,3 +47,27 @@ window.addEventListener('scroll', () => {
         navBar2.style.top = '0px';
     }
 })
+
+// ----------------------------intersectionObserver----------------------------------
+
+const boxes = document.querySelectorAll('.box')
+
+const observer = new IntersectionObserver((intries)=>{
+    intries.forEach(entry =>{
+        if(entry.isIntersecting){
+            entry.target.classList.add('show')
+            observer.unobserve(entry.target)
+            
+            
+        }
+    })
+} , {
+    threshold: 0.4
+})
+
+boxes.forEach(box =>{
+    observer.observe(box)
+})
+
+
+
