@@ -21,6 +21,11 @@ A modern and responsive website template built using **HTML**, **CSS**, **SASS**
 
 **Web-Template-18** is a responsive and clean website template designed for general use, including landing pages, corporate websites, portfolios, or personal projects. It has been developed entirely from scratch based on an existing design from a reference website.
 
+## 👨‍🏫 Supervisor
+
+This project was completed under the guidance of my academic supervisor:  
+🔗 [Master's Website](https://trainingsitedesign.ir/)
+
 ## 📸 Preview
 
 ![Image](https://github.com/user-attachments/assets/4bd25783-3e3a-48be-a423-2853e8c5ef70)
