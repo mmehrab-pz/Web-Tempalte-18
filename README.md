@@ -24,7 +24,7 @@ A modern and responsive website template built using **HTML**, **CSS**, **SASS**
 ## 👨‍🏫 Supervisor
 
 This project was completed under the guidance of my academic supervisor:  
-🔗 [Master's Website](https://trainingsitedesign.ir/)
+🔗 [Parsa Ghorbanian's Website](https://trainingsitedesign.ir/)
 
 ## 📸 Preview
 
