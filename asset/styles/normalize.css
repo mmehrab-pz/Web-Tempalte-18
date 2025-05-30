@@ -32,6 +32,7 @@ html{
     scroll-behavior: smooth;
     cursor: none;
     user-select: none;
+    scrollbar-color: #cef12b #03060a;
 }
 
 body {
@@ -39,7 +40,6 @@ body {
     overflow-x: hidden;
     cursor: default;
     background-color: #03060a;
-    conte
 }
 
 a {
