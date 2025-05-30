@@ -1948,6 +1948,26 @@ footer #footer-content > div:nth-of-type(4) > form > button {
   border-bottom: 2px solid #cacaca;
 }
 
+#mehrab {
+  width: 100%;
+  height: 60px;
+  background-color: #03060a;
+  border-top: 1px solid rgb(95, 95, 95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cef12b;
+}
+#mehrab > a, #mehrab p {
+  color: #cef12b;
+  font-family: "SpaceGrotesk-Regular";
+  text-transform: capitalize;
+}
+#mehrab > span {
+  padding-inline: 10px;
+  margin-bottom: 5px;
+}
+
 #bodyOff {
   width: 100%;
   height: 100vh;

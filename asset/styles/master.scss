@@ -2371,6 +2371,29 @@ footer {
         }
     }
 }
+// ---------------------------------mehrab---------------------------------
+
+#mehrab{
+    width: 100%;
+    height: 60px;
+    background-color: #03060a;
+    border-top: 1px solid rgb(95, 95, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cef12b;
+
+    >a,p{
+        color: #cef12b;
+        font-family: 'SpaceGrotesk-Regular';
+        text-transform: capitalize;
+    }
+    >span{
+        padding-inline: 10px;
+        margin-bottom: 5px;
+    }
+
+}
 
 // ---------------------------------Additions---------------------------------
 #bodyOff {
