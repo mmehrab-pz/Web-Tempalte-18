@@ -47,9 +47,7 @@
     }
 }
 
-@keyframes typing {
-
-}
+@keyframes typing {}
 
 // ---------------------------------header---------------------------------
 header {
@@ -111,7 +109,7 @@ header {
                     transition: .3s ease-in-out;
                     color: white;
                     position: relative;
-                    cursor: pointer;
+
 
                     >a {
                         font-family: 'SpaceGrotesk-Regular';
@@ -138,7 +136,7 @@ header {
                             text-transform: capitalize;
                             font-family: 'SpaceGrotesk-Bold';
                             font-size: 18px;
-                            cursor: pointer;
+
                             transition: .4s ease-in-out;
                             position: relative;
 
@@ -189,7 +187,7 @@ header {
                 align-items: center;
                 border: 2px solid white;
                 border-radius: 4px;
-                cursor: pointer;
+
 
                 >img {
                     width: 30px;
@@ -201,12 +199,6 @@ header {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-
-            >button {
-                >img {
-                    cursor: pointer;
-                }
-            }
 
             >a {
                 height: 55px;
@@ -308,7 +300,7 @@ header {
                     transition: .3s ease-in-out;
                     color: white;
                     position: relative;
-                    cursor: pointer;
+
 
                     >a {
                         font-family: 'SpaceGrotesk-Regular';
@@ -335,7 +327,7 @@ header {
                             text-transform: capitalize;
                             font-family: 'SpaceGrotesk-Bold';
                             font-size: 18px;
-                            cursor: pointer;
+
                             transition: .4s ease-in-out;
                             position: relative;
 
@@ -386,7 +378,7 @@ header {
                 align-items: center;
                 border: 2px solid white;
                 border-radius: 4px;
-                cursor: pointer;
+
 
                 >img {
                     width: 30px;
@@ -398,12 +390,6 @@ header {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-
-            >button {
-                >img {
-                    cursor: pointer;
-                }
-            }
 
             >a {
                 height: 55px;
@@ -582,7 +568,7 @@ header {
         position: absolute;
         top: -55px;
         right: 13px;
-        cursor: pointer;
+
 
         >img {
             width: 190px;
@@ -881,7 +867,7 @@ main {
             align-items: center;
             padding: 10px 15px 10px 10px;
             margin-inline: 15px;
-            cursor: pointer;
+
             transition: .4s ease-in-out;
 
             >figure {
@@ -1046,7 +1032,7 @@ main {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                cursor: pointer;
+
                 transition: .4s ease-in-out;
 
 
@@ -1093,7 +1079,7 @@ main {
     }
 
     >span {
-        cursor: pointer;
+
         position: relative;
 
         >img {
@@ -1175,7 +1161,7 @@ main {
                 font-size: 48px;
                 line-height: 62px;
                 margin-top: 15px;
-                
+
             }
 
         }
@@ -1192,7 +1178,7 @@ main {
                 color: white;
                 background-color: #121518;
                 transition: .4s ease-in-out;
-                cursor: pointer;
+
                 font-size: 25px;
                 border-radius: 50%;
 
@@ -1267,7 +1253,7 @@ main {
                 align-items: center;
                 padding-bottom: 10px;
                 transition: .4s ease-in-out;
-                cursor: pointer;
+
 
                 >p {
                     font-size: 16px;
@@ -1469,7 +1455,7 @@ main {
                 position: absolute;
                 overflow: hidden;
                 transform: translate(-50%, -50%);
-                cursor: pointer;
+
 
                 >img {
                     width: 100%;
@@ -1526,7 +1512,7 @@ main {
             color: white;
             background-color: #121518;
             transition: .4s ease-in-out;
-            cursor: pointer;
+
             font-size: 25px;
             border-radius: 50%;
 
@@ -1678,7 +1664,7 @@ main {
                     background-color: #03060a;
                     padding-right: 3px;
                     transition: .2s ease-in-out;
-                    cursor: pointer;
+
 
                     &:hover {
                         background-color: #cef12b;
@@ -1704,7 +1690,7 @@ main {
                     background-color: rgb(255, 255, 255);
                     margin-bottom: 10px;
                     transition: .2s ease-in-out;
-                    cursor: pointer;
+
 
                     >img {
                         width: 25px;
@@ -1788,7 +1774,7 @@ main {
             border-radius: 16px;
             background-color: #1C2021;
             overflow: hidden;
-            cursor: pointer;
+
 
             >figure {
                 width: 100%;
@@ -1943,7 +1929,7 @@ footer {
             color: white;
             text-decoration-line: underline;
             text-underline-position: from-font;
-            cursor: pointer;
+
             transition: .2s ease-in-out;
 
             &:hover {
@@ -1987,7 +1973,7 @@ footer {
                         border-radius: 50%;
                         background-color: #1D1F23;
                         margin-right: 10px;
-                        cursor: pointer;
+
                         transition: .3s ease-in-out;
                         background-color: #cef12b;
 
@@ -2132,7 +2118,7 @@ footer {
         position: absolute;
         top: 0;
         right: 0;
-        cursor: pointer;
+
 
         >img {
             width: 20px;
@@ -2187,7 +2173,7 @@ footer {
         overflow: hidden;
         position: relative;
         transition: .4s ease-in-out;
-        cursor: pointer;
+
         margin-block: 20px;
 
 
@@ -2244,7 +2230,7 @@ footer {
                 border-radius: 50%;
                 background-color: #1D1F23;
                 margin-right: 10px;
-                cursor: pointer;
+
                 transition: .3s ease-in-out;
                 background-color: #cef12b;
 
@@ -2343,7 +2329,7 @@ footer {
         top: 0;
         right: 0;
         background-color: #F1F1F1;
-        cursor: pointer;
+
 
         >img {
             width: 20px;
@@ -2396,7 +2382,7 @@ footer {
     display: none;
 }
 
-#goTop{
+#goTop {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -2404,18 +2390,18 @@ footer {
     position: fixed;
     bottom: 30px;
     right: 30px;
-    cursor: pointer;
+
     z-index: 70;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    >img{
+    >img {
         width: 30px;
     }
 }
 
-#progress{
+#progress {
     position: fixed;
     top: 0;
     left: 0;
@@ -2424,6 +2410,32 @@ footer {
     background-color: #cef12b;
     display: flex;
     z-index: 98;
+}
+
+#cursor {
+    position: fixed;
+    z-index: 102;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #cef12b;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+
+    >span {
+        display: flex;
+        width: 10px;
+        height: 10px;
+        background-color: #cef12b;
+        border-radius: 50%;
+       
+
+    }
 }
 
 // ---------------------------------classes---------------------------------

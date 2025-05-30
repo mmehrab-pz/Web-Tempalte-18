@@ -71,13 +71,39 @@ boxes.forEach(box => {
 
 // ----------------------------progress bar----------------------------------
 let progress = document.getElementById('progress')
+let scrollTop = 0
 
 window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY; // مقدار اسکرول فعلی
+    scrollTop = window.scrollY; // مقدار اسکرول فعلی
     const docHeight = document.documentElement.scrollHeight; // ارتفاع کل صفحه
     const windowHeight = window.innerHeight; // ارتفاع پنجره مرورگر
-
     const scrollPercent = (scrollTop / (docHeight - windowHeight)) * 100;
 
     progress.style.width = `${scrollPercent}%`;
+})
+
+// ----------------------------cursor----------------------------------
+let cursor = document.getElementById('cursor')
+let X
+let Y
+window.addEventListener('mousemove', (e) => {
+    X = e.clientX
+    Y = e.clientY
+    cursor.style.left = `${X}px`
+    cursor.style.top = `${Y}px`
+})
+
+window.addEventListener('mousedown', () => {
+    cursor.style.width = '30px'
+    cursor.style.height = '30px'
+    cursor.children[0].style.width = '12px'
+    cursor.children[0].style.height = '12px'
+
+})
+window.addEventListener('mouseup', () => {
+    cursor.style.width = '40px'
+    cursor.style.height = '40px'
+    cursor.children[0].style.width = '10px'
+    cursor.children[0].style.height = '10px'
+
 })

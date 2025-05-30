@@ -25,10 +25,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    cursor: none;
 }
 
 html{
     scroll-behavior: smooth;
+    cursor: none;
+    user-select: none;
 }
 
 body {
@@ -36,11 +39,13 @@ body {
     overflow-x: hidden;
     cursor: default;
     background-color: #03060a;
+    
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    cursor: none;
 }
 
 ul {
