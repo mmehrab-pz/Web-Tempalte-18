@@ -107,3 +107,8 @@ window.addEventListener('mouseup', () => {
     cursor.children[0].style.height = '10px'
 
 })
+
+// ----------------------------contextmenu----------------------------------
+window.addEventListener('contextmenu' , (e)=>{
+    e.preventDefault()
+})
