@@ -42,7 +42,7 @@ Check out the live version of this template:
 
 Feel free to reach out or follow me on social media:
 
-- 🌐 [My Website](http://mehrabpourzakari.com/)
+- 🌐 [My Website](https://pourzakaria.com/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/mehrab-pourzakaria-1b2492237/)
 - ✈️ [Telegram](https://t.me/mehrabPourzakaria)
 - 📸 [Instagram](https://www.instagram.com/mehrab.poorzakaria_web/)
